@@ -49,7 +49,7 @@ html, body{
 #page1 .scroller1:nth-child(3) .scroll{
     /* background-color: yellow; */
     animation-name: scrollll;
-    animation-duration: 10s;
+    animation-duration: 40s;
     animation-timing-function: linear;
     animation-direction: reverse;
 }
@@ -60,7 +60,7 @@ html, body{
     height: 100%;
     display: inline-block;
     animation-name: scrollll;
-    animation-duration: 10s;
+    animation-duration: 40s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -75,6 +75,7 @@ html, body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 3px;
 
 }
 @keyframes scrollll {
@@ -125,9 +126,10 @@ html, body{
     color: white;
     font-weight: 700;
     animation-name: scrollll;
-    animation-duration: 50s;
+    animation-duration: 30s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
 }
 #h1-div{
     width: 100%;

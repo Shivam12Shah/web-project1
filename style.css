@@ -28,6 +28,7 @@ html, body{
 
     width: 100%;
     text-align: right;
+    position: sticky;
 }
 #p1-nav a{
     font-weight: 500;

@@ -168,7 +168,7 @@ html, body{
     /* margin-top: 10px; */
     /* background-color: aqua; */
     font-size: 450px;
-    line-height: 300px
+    line-height: 330px
 }
 #page2 h2{
     position: absolute;
@@ -182,14 +182,17 @@ html, body{
 }
 #page2 p{
     width: 500px;
-    background-color: red;
+    /* background-color: red; */
     margin-top: 40px;
+    color: gray;
 }
 #page3{
     width: 100%;
-    height: 100vh;
-    background-color: red;
+    height: 140vh;
+    /* background-color: red; */
     position: relative;
+    transition: all ease 0.4s;
+    padding: 0.1px;
 }
 #page3 h1{
     text-transform: uppercase;
@@ -198,15 +201,157 @@ html, body{
     /* margin-top: 10px; */
     /* background-color: aqua; */
     font-size: 450px;
-    line-height: 300px
+    line-height: 330px;
+    text-align: center;
+    margin-top: 50px;
 }
 #page3 h2{
     position: absolute;
     top: 15%;
-    left: 40%;
+    left: 10%;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 7vw;
     line-height: 7vw;
     /* background-color: green; */
+}
+#page3:hover h2{
+    color: white;
+}
+#page3:hover {
+    background-color: black;
+    
+} 
+
+#page3 p{
+    width: 500px;
+    /* background-color: red; */
+    margin-top: 40px;
+    color: gray;
+
+    margin-left: 50%;
+}
+#page3 #p1-nav2 {
+    margin-top: 25px;
+}
+#page3:hover a{
+    color: white;
+}
+#page3:hover h4{
+    color: white;
+}
+#page4{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1512005286309-e5b890ca36b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#page4 h1{
+    color: white;
+    font-size: 100px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+#page5{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1519033318516-7cf2b0e8f49a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#page5 h1{
+    color: white;
+    font-size: 100px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+#page6{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1465145498025-928c7a71cab9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#page6 h1{
+    color: white;
+    font-size: 100px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+#page7{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1617145399253-05d548e46e0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#page7 h1{
+    color: white;
+    font-size: 100px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+#page8{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1433888104365-77d8043c9615?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#page8 h1{
+    color: white;
+    font-size: 100px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+#page9{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1508655382032-b95191fa1b51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#page9 h1{
+    color: white;
+    font-size: 100px;
+    font-family: fantasy;
+    font-weight: 200;
+    mix-blend-mode: difference;
 }

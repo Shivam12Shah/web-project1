@@ -250,7 +250,8 @@ html, body{
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    position: relative;
+    /* z-index: 99; */
 }
 
 #page4 h1{
@@ -415,7 +416,7 @@ html, body{
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    background-color: red;
+    /* background-color: red; */
 
 }
 #good::-webkit-scrollbar{
